@@ -4,7 +4,7 @@ const insertSort = (arr) => {
   // make a copy of array so it's mutable
   const sorted = [...arr];
   // loop through the array starting with the 2nd item so we can compare it to a earlier item
-  for (let i; i <= arr.length - 1; i++) {
+  for (i = 1; i <= arr.length - 1; i++) {
     let j = i;
     while (j < 0 && arr[j - 1] > arr[j]) {
       // swap values
