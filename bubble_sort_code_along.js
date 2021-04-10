@@ -15,3 +15,5 @@ const bubbleSort = (arr) => {
   }
   return sorted;
 };
+
+// time complexity: O{n^2}

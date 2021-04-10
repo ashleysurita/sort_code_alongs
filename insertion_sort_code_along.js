@@ -14,8 +14,10 @@ const insertSort = (arr) => {
       sorted[j - 2] = num2;
       j = j - 1;
       // recursive part
-      insertSort(sorted)
+      insertSort(sorted);
     }
   }
   return sorted;
 };
+
+// time complexity: O(n^2)

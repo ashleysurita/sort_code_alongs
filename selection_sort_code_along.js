@@ -19,7 +19,9 @@ const selectionSort = (arr) => {
       sorted[iMin] = a;
     }
     // recursive part
-    selectionSort(sorted)
+    selectionSort(sorted);
   }
   return sorted;
 };
+
+// time complexity: O(n^2)
