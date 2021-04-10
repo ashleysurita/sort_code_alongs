@@ -18,6 +18,8 @@ const selectionSort = (arr) => {
       sorted[i] = b;
       sorted[iMin] = a;
     }
+    // recursive part
+    selectionSort(sorted)
   }
   return sorted;
 };

@@ -13,6 +13,8 @@ const insertSort = (arr) => {
       sorted[j - 1] = num1;
       sorted[j - 2] = num2;
       j = j - 1;
+      // recursive part
+      insertSort(sorted)
     }
   }
   return sorted;
